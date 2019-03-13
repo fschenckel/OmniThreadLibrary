@@ -36,9 +36,9 @@ requires
   vcl;
 
 contains
-  GpLists in '..\..\src\GpLists.pas',
-  GpStuff in '..\..\src\GpStuff.pas',
-  GpStringHash in '..\..\src\GpStringHash.pas',
+  GpLists in '..\..\..\Gp\src\GpLists.pas',
+  GpStuff in '..\..\..\Gp\src\GpStuff.pas',
+  GpStringHash in '..\..\..\Gp\src\GpStringHash.pas',
   DetailedRTTI in '..\..\src\DetailedRTTI.pas',
   OtlCommon in '..\..\OtlCommon.pas',
   OtlContainers in '..\..\OtlContainers.pas',
@@ -48,7 +48,7 @@ contains
   OtlTaskControl in '..\..\OtlTaskControl.pas',
   OtlThreadPool in '..\..\OtlThreadPool.pas',
   OtlEventMonitor in '..\..\OtlEventMonitor.pas',
-  DSiWin32 in '..\..\src\DSiWin32.pas',
+  DSiWin32 in '..\..\..\Gp\src\DSiWin32.pas',
   OtlContainerObserver in '..\..\OtlContainerObserver.pas',
   OtlSync in '..\..\OtlSync.pas',
   OtlHooks in '..\..\OtlHooks.pas',
